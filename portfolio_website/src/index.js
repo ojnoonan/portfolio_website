@@ -1,18 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
 import './index.css';
 
-import HomePage from './HomePage/home';
+import NavBar from './NavBar/Navbar.js';
+import HomePage from './HomePage/Home.js';
+import AboutPage from './AboutPage/About.js';
 
-const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <BrowserRouter>
-  {/* <NavBar/> */}
-      <Switch>
-          <Route exact path="/" component={HomePage} />
-      </Switch>
-  {/* <Footer/> */}
-  </BrowserRouter>,
-  rootElement
+  <React.StrictMode>
+    <NavBar/>
+    <HomePage/>
+    <AboutPage/>
+  </React.StrictMode>,
+  document.getElementById('root')
 );

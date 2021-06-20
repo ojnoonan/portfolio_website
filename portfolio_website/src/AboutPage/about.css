@@ -1,0 +1,10 @@
+.about-page {
+    background: var(--bg-color-secondary);
+    color: var(--text-secondary);
+    min-height: 100vh;
+    display: grid;
+}
+
+.card {
+    
+}
