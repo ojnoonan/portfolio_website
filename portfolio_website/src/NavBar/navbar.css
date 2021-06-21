@@ -1,11 +1,9 @@
 nav {
     position: fixed;
-    display: grid;
     text-align: right;
-    margin-right: 0.5em;
-    top: 0;
+    padding-right: 0.5em;
     right: 0;
-    left: 0;
+    top: 0;
     z-index: 1;
 }
 
@@ -69,7 +67,7 @@ nav li:nth-child(4) {
 }
 
 .nav-scrolled ul li {
-    border-left: 0.125em white solid;
+    /* border-left: 0.125em white solid; */
     border-left: 0.125em var(--bg-color-secondary) solid;
 }
 

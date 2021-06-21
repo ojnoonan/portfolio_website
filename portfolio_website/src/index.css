@@ -12,6 +12,8 @@ body {
   padding: 0;
   height: 100vh;
   font-family: 'Space Mono', sans-serif;
+  /* display: grid; */
+  place-items: center;
 }
 
 @media (prefers-reduced-motion: reduce) {
