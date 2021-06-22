@@ -15,7 +15,8 @@
     font-size: clamp(1rem, 3vw + 1rem, 4rem);
     position: relative;
     font-family: 'Space Mono', monospace;
-    width: max-content;
+    /* width: max-content; */
+    width: fit-content;
 }
 
 .typewriter::before,
@@ -46,7 +47,7 @@
     font-weight: 400;
     opacity: 0;
     transform: translateY(3rem);
-    animation: fadeInUp 2s ease calc(var(--typewriterspeed) + 2s) forwards;
+    animation: fadeInUp 2s ease calc(var(--typewriterspeed) + 0.5s) forwards;
 }
 
 @keyframes typewriter {

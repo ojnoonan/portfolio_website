@@ -2,9 +2,9 @@ import React from 'react'
 import './projects.css'
 import { projects } from './Data.js'
 
-function Projects() {
+function Projects({clickRef}) {
     return (
-        <div className="projects-page">
+        <div className="projects-page" ref={clickRef}>
             <h1>Projects</h1>
             <div className="projects-wrapper">
             {projects.map(project => 

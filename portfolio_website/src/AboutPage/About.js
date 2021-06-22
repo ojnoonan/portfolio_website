@@ -2,9 +2,9 @@ import React from 'react'
 import './about.css'
 import Tooltip from '@material-ui/core/Tooltip';
 
-function About() {
+function About({clickRef}) {
     return (
-        <div className='about-page'>
+        <div className='about-page' ref={clickRef}>
             <div className='card'>
                 <div className="profile-sidebar">
                     <img className='profile-image' src={'/images/profile_photo.png'} alt="" />
