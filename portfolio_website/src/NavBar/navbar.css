@@ -26,15 +26,12 @@ nav li {
     padding: 0.5em 1.5em;
     cursor: pointer;
     margin-right: 0.1em;
-    /* box-shadow: 0.15em 0.15em 0.06em 0.125px rgb(0 0 0 / 80%); */
-    /* border-radius: 0.5em; */
     border-left: 0.125em rgb(57, 57, 57) solid;
 }
 
 nav li:hover,
 nav li:focus {
     background-color: rgb(235, 227, 216);
-    /* box-shadow: inset 0.15em 0.15em 0.125em 0.125em rgb(0 0 0 / 80%); */
 }
 
 nav li:nth-child(1) {

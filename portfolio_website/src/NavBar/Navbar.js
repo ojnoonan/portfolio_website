@@ -1,10 +1,10 @@
-import React, { useRef, useState } from 'react'
+import React, { useState } from 'react'
 import './navbar.css'
 
 function Navbar() {
     const [navbarColor, setNavbarColor] = useState(false);
     const [navbarMenu, setNavbarMenu] = useState(false);
-    const navItemClick = useRef(null);
+    const navItemClick = null;
 
     const changeBackground = () => {
         if(window.scrollY >= 72) {

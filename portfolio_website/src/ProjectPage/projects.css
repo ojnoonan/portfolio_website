@@ -30,13 +30,16 @@
     transition: transform 500ms ease;
     margin: 1rem;
 
-    left: 0;
-    right: 0;
+    /* left: 0;
+    right: 0; */
+
+    box-shadow: 0.2em 0.4em 0.3em 0.125px rgb(0 0 0 / 80%);
 }
 
 .project-card:hover,
 .project-card:focus-within {
     transform: scale(1.05);
+    box-shadow: 0.2em 0.6em 0.4em 0.125px rgb(0 0 0 / 80%);
 }
 
 .project-card-content {
