@@ -41,6 +41,7 @@
 
 .project-card-content {
     --padding: 1.5rem;
+    height: 14rem;
     padding: var(--padding);
     background: linear-gradient(
         hsl(0 0% 0% / 0),
@@ -84,6 +85,9 @@
     background-color: mediumaquamarine;
     padding: 0.5em 1.25em;
     border-radius: 0.25em;
+    position: absolute;
+    bottom:   0;
+    margin-bottom: 1rem;
 }
 
 .project-button:hover,
