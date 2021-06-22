@@ -14,7 +14,7 @@ function Projects() {
                         <p className="project-card-body">
                             {project.body}
                         </p>
-                        <a href={`${project.link}`} target="_blank" className="project-button">{project.linkTitle}</a>
+                        <a href={`${project.link}`} target="_blank" rel="noreferrer" className="project-button">{project.linkTitle}</a>
                     </div>
                 </div>  
             )}

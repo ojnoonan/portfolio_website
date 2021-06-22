@@ -28,10 +28,17 @@ export const projects = [
         link: "https://pdaaustralia.com/"
     },
     {
-        title: "Buyable Player Chests",
+        title: "BPC Minecraft",
         image: "bpc.png",
-        body: "A Minecraft chest locking plugin developed with Spigot using Java.",
+        body: "A Minecraft chest locking plugin developed with Java using Spigot.",
         linkTitle: "Website Link",
-        link: ""
+        link: "https://www.spigotmc.org/resources/buyable-player-chests.74850/"
+    },
+    {
+        title: "Teams Minecraft",
+        image: "bpc.png",
+        body: "A Minecraft teams plugin developed with Java using Spigot.",
+        linkTitle: "Website Link",
+        link: "https://www.spigotmc.org/resources/ojs-teams.75021/"
     },
 ]

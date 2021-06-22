@@ -85,9 +85,6 @@
     background-color: mediumaquamarine;
     padding: 0.5em 1.25em;
     border-radius: 0.25em;
-    position: absolute;
-    bottom:   0;
-    margin-bottom: 1rem;
 }
 
 .project-button:hover,
@@ -138,5 +135,9 @@
     }
     .project-card {
         max-height: 35ch;
+    }
+    .project-button {
+        bottom:   0;
+        margin-bottom: 1rem;
     }
 }

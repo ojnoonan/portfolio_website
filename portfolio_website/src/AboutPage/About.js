@@ -8,9 +8,9 @@ function About() {
                 <div className="profile-sidebar">
                     <img className='profile-image' src={'/images/profile_photo.png'} alt="" />
                     <ul className='social-list'>
-                        <li className='social-item'><a aria-label='github' className='social-link' href="https://github.com/ojnoonan" target="_blank"><i className="fab fa-github-square"></i></a></li>
-                        <li className='social-item'><a aria-label='linkedin' className='social-link' href="https://www.linkedin.com/in/oliver-noonan-725a37204/" target="_blank"><i className="fab fa-linkedin"></i></a></li>
-                        <li className='social-item'><a aria-label='facebook' className='social-link' href="url(/images/Oliver_Noonan_CV_2021.pdf)" download><i className="fab fa-facebook-square"></i></a></li>
+                        <li className='social-item'><a aria-label='github' className='social-link' href="https://github.com/ojnoonan" target="_blank" rel="noreferrer"><i className="fab fa-github-square"></i></a></li>
+                        <li className='social-item'><a aria-label='linkedin' className='social-link' href="https://www.linkedin.com/in/oliver-noonan-725a37204/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a></li>
+                        <li className='social-item'><a aria-label='facebook' className='social-link' href="url(/images/Oliver_Noonan_CV_2021.pdf)" download><i className="fas fa-file-download"></i></a></li>
                     </ul>
                 </div>
                 <div className="profile-main">
