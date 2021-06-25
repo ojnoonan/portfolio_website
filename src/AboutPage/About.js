@@ -7,7 +7,7 @@ function About({clickRef}) {
         <div className='about-page' ref={clickRef}>
             <div className='card'>
                 <div className="profile-sidebar">
-                    <img className='profile-image' src={'/images/profile_photo.png'} alt="" />
+                    <img className='profile-image' src={'images/profile_photo.png'} alt="" />
                     <ul className='social-list'>
                         <Tooltip title="GitHub" arrow>
                             <li className='social-item'><a aria-label='github' className='social-link' href="https://github.com/ojnoonan" target="_blank" rel="noreferrer"><i className="fab fa-github-square"></i></a></li>
