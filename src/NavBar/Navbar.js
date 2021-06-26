@@ -4,7 +4,6 @@ import './navbar.css'
 function Navbar({handleNavItemClick}) {
     const [navbarColor, setNavbarColor] = useState(false);
     const [navbarMenu, setNavbarMenu] = useState(false);
-    // const navItemClick = useRef(null);
 
     const changeBackground = () => {
         if(window.scrollY >= 72) {
@@ -26,10 +25,10 @@ function Navbar({handleNavItemClick}) {
             <ul>
                 <div className="mobile-nav" onClick={handleClick}><i className="fas fa-bars"></i></div>
                 <div className={navbarMenu ? '' : 'nav-close'}>
-                    <li onClick={handleNavItemClick}>Home</li>
-                    <li onClick={handleNavItemClick}>About</li>
-                    <li onClick={handleNavItemClick}>Projects</li>
-                    <li onClick={handleNavItemClick}>Contact</li>
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#about"><li>About</li></a>
+                    <a href="#projects"><li>Projects</li></a>
+                    <a href="/"><li>Contact</li></a>
                 </div>
             </ul>
         </nav>
