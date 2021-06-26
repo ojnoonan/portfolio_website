@@ -16,7 +16,7 @@ function About({clickRef}) {
                             <li className='social-item'><a aria-label='linkedin' className='social-link' href="https://www.linkedin.com/in/oliver-noonan-725a37204/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a></li>
                         </Tooltip>
                         <Tooltip title="CV" arrow>
-                            <li className='social-item'><a aria-label='CV' className='social-link' href="url(/images/Oliver_Noonan_CV_2021.pdf)" download><i className="fas fa-file-download"></i></a></li>
+                            <li className='social-item'><a aria-label='CV' className='social-link' href="./Oliver_Noonan_CV_2021.pdf" download><i className="fas fa-file-download"></i></a></li>
                         </Tooltip>
                     </ul>
                 </div>
