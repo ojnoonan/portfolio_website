@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import NavBar from './NavBar/Navbar.js';
-import HomePage from './HomePage/Home.js';
-import AboutPage from './AboutPage/About.js';
-import ProjectsPage from './ProjectPage/Projects.js'
+import HomePage from './HomeSection/Home.js';
+import AboutPage from './AboutSection/About.js';
+import ProjectsPage from './ProjectSection/Projects.js'
 
 ReactDOM.render(
   <React.StrictMode>
